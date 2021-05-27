@@ -1,0 +1,21 @@
+{
+  "name": "be-utils",
+  "version": "1.0.0",
+  "description": "BE-utils - are a collection of utilities and unsupported functionality",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brainencoding/BE-utils.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brainencoding/BE-utils/issues"
+  },
+  "homepage": "https://github.com/brainencoding/BE-utils#readme"
+}
