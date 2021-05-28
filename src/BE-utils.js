@@ -19,6 +19,7 @@ let BE;
 	BE.object = {};
 	BE.string = {};
 	BE.crypto = {};
+	BE.common = {};
 	BE.number = {};
 	BE.html = {};
 	BE.httpClient = {};
@@ -150,13 +151,11 @@ let BE;
 	 * =======> HTTP CLIENT <=======
 	 * */
 
-
-
 	/*
 	 * =======> COMMON <=======
 	 * */
 
-	BE._immediateState = {
+	BE.common._immediateState = {
 		storage: {},
 		uid: 0,
 		firstCall: true,
@@ -182,17 +181,17 @@ let BE;
 		function callback(event) {
 			let key = event.data;
 			let data;
-			if (typeof key == 'string' && key.indexOf(BE._immediateState.message) === 0) {
-				data = BE._immediateState.storage[key];
+			if (typeof key == 'string' && key.indexOf(BE.common._immediateState.message) === 0) {
+				data = BE.common._immediateState.storage[key];
 				if (data) {
-					delete BE._immediateState.storage[key];
+					delete BE.common._immediateState.storage[key];
 					fastApply(data);
 				}
 			}
 		}
 
-		let id = BE._immediateState.uid++;
-		let key = BE._immediateState.message + id;
+		let id = BE.common._immediateState.uid++;
+		let key = BE.common._immediateState.message + id;
 		let i = arguments.length;
 		let args = new Array(i);
 
@@ -200,10 +199,10 @@ let BE;
 			args[i] = arguments[i];
 		}
 
-		BE._immediateState.storage[key] = args;
+		BE.common._immediateState.storage[key] = args;
 
-		if (BE._immediateState.firstCall) {
-			BE._immediateState.firstCall = false;
+		if (BE.common._immediateState.firstCall) {
+			BE.common._immediateState.firstCall = false;
 			window.addEventListener('message', callback);
 		}
 
@@ -211,14 +210,19 @@ let BE;
 		
 		return id;
 	}
+	
 	function _clearImmediate(id) {
-		if (!id || typeof id !== 'number') return new Error('argument "id" was not specified or type is invalid');
-		delete BE._immediateState.storage[BE._immediateState.message + id];
+		if (!id || typeof id !== 'number') {
+			return new Error('argument "id" was not specified or type is invalid');
+		}
+
+		delete BE.common._immediateState.storage[BE.common._immediateState.message + id];
+		
 		return true;
 	}
 
-	BE.setImmediate =_setImmediate;
-	BE.clearImmediate =_clearImmediate;
+	BE.common.setImmediate =_setImmediate;
+	BE.common.clearImmediate =_clearImmediate;
 
 	/**
 	 * class EventEmitter.
