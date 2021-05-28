@@ -1,12 +1,12 @@
-/** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+/** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  *	Author: Adamets Vladislav                                 *
- *	License: MIT                                 			  *
+ *	License: MIT                                 		  *
  *	Organization: BrainEncoding                               *
- *                                                            *
+ *                                                                *
  *	GitHub author: https://github.com/adametsofficial         *
  *	GitHub org: https://github.com/brainencoding              *
  *	GitHub project: https://github.com/brainencoding/BE-utils *
- *  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+ *  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 "use strict";
 let BE;
