@@ -27,7 +27,8 @@
   <component name="ChangeListManager">
     <list default="true" id="27c5a1c0-4160-4c85-af8f-3781cedda9f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/BE-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/BE-utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/BE-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/BE-utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,11 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Projects\new\BE-utils\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622153032188</updated>
-      <workItem from="1622153035102" duration="6046000" />
+      <workItem from="1622153035102" duration="6394000" />
     </task>
     <task id="LOCAL-00001" summary="upd: add equals methods for objects and arrays">
       <created>1622155092531</created>
@@ -80,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622156615299</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="chore: update JSDoc">
+      <created>1622238094479</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622238094479</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +126,8 @@
     <MESSAGE value="upd: add equals methods for objects and arrays" />
     <MESSAGE value="upd: add setImmediate supporting and array chunk breaker" />
     <MESSAGE value="upd: add get element's by regular expression" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd: add get element's by regular expression" />
+    <MESSAGE value="chore: update JSDoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: update JSDoc" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="288" key="Vcs.Push.Dialog.v2" timestamp="1622156618541">

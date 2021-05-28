@@ -2,7 +2,7 @@
   "name": "be-utils",
   "version": "1.0.0",
   "description": "BE-utils - are a collection of utilities and unsupported functionality",
-  "main": "index.js",
+  "main": "lib/BE-utild.js",
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc"
