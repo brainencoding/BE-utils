@@ -26,9 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27c5a1c0-4160-4c85-af8f-3781cedda9f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BE-utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/BE-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/BE-utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622153032188</updated>
-      <workItem from="1622153035102" duration="6394000" />
+      <workItem from="1622153035102" duration="9796000" />
     </task>
     <task id="LOCAL-00001" summary="upd: add equals methods for objects and arrays">
       <created>1622155092531</created>
@@ -93,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622238094479</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="chore: upd scripts">
+      <created>1622238513074</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622238513074</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +133,8 @@
     <MESSAGE value="upd: add setImmediate supporting and array chunk breaker" />
     <MESSAGE value="upd: add get element's by regular expression" />
     <MESSAGE value="chore: update JSDoc" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: update JSDoc" />
+    <MESSAGE value="chore: upd scripts" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: upd scripts" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="288" key="Vcs.Push.Dialog.v2" timestamp="1622156618541">
