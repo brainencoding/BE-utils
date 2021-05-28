@@ -62,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622153032188</updated>
-      <workItem from="1622153035102" duration="11310000" />
+      <workItem from="1622153035102" duration="11827000" />
     </task>
     <task id="LOCAL-00001" summary="upd: add equals methods for objects and arrays">
       <created>1622155092531</created>
@@ -127,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622242986217</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="upd: add object assign">
+      <created>1622243354293</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1622243354293</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +173,8 @@
     <MESSAGE value="upd: add MD5 encoding function" />
     <MESSAGE value="upd: add common" />
     <MESSAGE value="upd: add object observer" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd: add object observer" />
+    <MESSAGE value="upd: add object assign" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd: add object assign" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="288" key="Vcs.Push.Dialog.v2" timestamp="1622242989231">

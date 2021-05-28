@@ -1,12 +1,12 @@
-/**
- *	Author: Adamets Vladislav
- *
- *	BrainEncoding org.
- *
- *	GitHub author: https://github.com/adametsofficial
- *	GitHub org: https://github.com/brainencoding
- *	GitHub project: https://github.com/brainencoding/BE-utils
- * */
+/** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ *	Author: Adamets Vladislav                                 *
+ *	License: MIT                                 			  *
+ *	Organization: BrainEncoding                               *
+ *                                                            *
+ *	GitHub author: https://github.com/adametsofficial         *
+ *	GitHub org: https://github.com/brainencoding              *
+ *	GitHub project: https://github.com/brainencoding/BE-utils *
+ *  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 "use strict";
 let BE;
@@ -16,6 +16,7 @@ let BE;
 	 * Initialize namespace group
 	 * */
 	BE.array = {};
+	BE.is = {};
 	BE.object = {};
 	BE.string = {};
 	BE.crypto = {};
@@ -523,6 +524,26 @@ let BE;
 	BE.array.chunksOf = chunksOf;
 
 	/**
+	 * =======> IS [any] <=======
+	 * */
+
+	BE.is = {
+		isNumber(num) {
+			return typeof num === 'number' || num instanceof Number;
+		},
+		isString(str) {
+			return typeof str === 'string' || str instanceof String;
+		},
+		isBoolean(bool) {
+			return bool === true || bool === false;
+		},
+		isFunction(fn) {
+			return typeof fn == 'function' || fn instanceof Function;
+		},
+	}
+
+
+	/**
 	 * =======> OBJECT <=======
 	 * */
 
@@ -567,7 +588,6 @@ let BE;
 	BE.object.observer = Observer;
 
 	/**
-	 *
 	 * @param target {Object}
 	 * @param source {Object}
 	 * @return {Object}
