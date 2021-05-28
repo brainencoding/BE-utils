@@ -221,8 +221,8 @@ let BE;
 		return true;
 	}
 
-	BE.common.setImmediate =_setImmediate;
-	BE.common.clearImmediate =_clearImmediate;
+	BE.common.setImmediate = _setImmediate;
+	BE.common.clearImmediate = _clearImmediate;
 
 	/**
 	 * class EventEmitter.
@@ -274,17 +274,17 @@ let BE;
 		}
 	}
 
-	BE.EventEmmiter = _EventEmitter;
+	BE.common.EventEmmiter = _EventEmitter;
 
 	/*
 	 * =======> CRYPTO <=======
 	 * */
 
 	/**
-	* MD5 encode
-	*
-	* @param string {string}
-	* */
+	 * MD5 encode
+	 *
+	 * @param string {string}
+	 * */
 	 function MD5(string) {
 		 function F(x,y,z) { return (x & y) | ((~x) & z); }
 
@@ -525,6 +525,46 @@ let BE;
 	/**
 	 * =======> OBJECT <=======
 	 * */
+
+	BE.object._handlers = Symbol('handlers');
+
+	/**
+	 * 	const person = {}; // alternate window.ObjectObserver({})
+	 * 	person = window.ObjectObserver(person);
+	 *
+	 *	person.observe((key, value) => {
+	 *		console.log(`Person changed value from '${key}' to '${value}'`)
+	 *	})
+	 *
+	 *	person.username = 'Tom'; // As a consequence of this action, the handler will be called
+	 *
+	 * @param target {Object}
+	 * @return {Object}
+	 * */
+	function Observer(target) {
+		if (!target) {
+			throw new Error('\n\t {target} is not specified');
+		}
+
+		const handlers = BE.object._handlers;
+
+		target[handlers] = [];
+
+		target.observe = function (handler) {
+			this[handlers].push(handler);
+		};
+
+		return new Proxy(target, {
+			set(target, property, value, receiver) {
+				let success = Reflect.set(...arguments);
+				if (success) {
+					target[handlers].forEach((handler) => handler(property, value));
+				}
+				return success;
+			},
+		});
+	}
+	BE.object.observer = Observer;
 
 	/**
 	 * Objects comparing

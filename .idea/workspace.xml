@@ -27,7 +27,10 @@
   <component name="ChangeListManager">
     <list default="true" id="27c5a1c0-4160-4c85-af8f-3781cedda9f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/BE-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/BE-utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/BE-utils.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/lib/BE-utils.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BE-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/BE-utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.tsbuildinfo" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622153032188</updated>
-      <workItem from="1622153035102" duration="10007000" />
+      <workItem from="1622153035102" duration="10923000" />
     </task>
     <task id="LOCAL-00001" summary="upd: add equals methods for objects and arrays">
       <created>1622155092531</created>
@@ -106,7 +109,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622241867204</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="upd: add MD5 encoding function">
+      <created>1622242045595</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622242045595</updated>
+    </task>
+    <task id="LOCAL-00008" summary="upd: add common">
+      <created>1622242235247</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1622242235247</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +159,9 @@
     <MESSAGE value="chore: update JSDoc" />
     <MESSAGE value="chore: upd scripts" />
     <MESSAGE value="upd: add methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd: add methods" />
+    <MESSAGE value="upd: add MD5 encoding function" />
+    <MESSAGE value="upd: add common" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd: add common" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="288" key="Vcs.Push.Dialog.v2" timestamp="1622156618541">
