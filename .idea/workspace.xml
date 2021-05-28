@@ -27,10 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="27c5a1c0-4160-4c85-af8f-3781cedda9f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/BE-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/BE-utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/BE-utils.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/lib/BE-utils.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BE-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/BE-utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.tsbuildinfo" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622153032188</updated>
-      <workItem from="1622153035102" duration="10923000" />
+      <workItem from="1622153035102" duration="11310000" />
     </task>
     <task id="LOCAL-00001" summary="upd: add equals methods for objects and arrays">
       <created>1622155092531</created>
@@ -123,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622242235247</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="upd: add object observer">
+      <created>1622242986217</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1622242986217</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,13 +165,14 @@
     <MESSAGE value="upd: add methods" />
     <MESSAGE value="upd: add MD5 encoding function" />
     <MESSAGE value="upd: add common" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd: add common" />
+    <MESSAGE value="upd: add object observer" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd: add object observer" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="288" key="Vcs.Push.Dialog.v2" timestamp="1622156618541">
+    <state x="552" y="288" key="Vcs.Push.Dialog.v2" timestamp="1622242989231">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="552" y="288" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1622156618541" />
+    <state x="552" y="288" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1622242989231" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1622237188631">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
